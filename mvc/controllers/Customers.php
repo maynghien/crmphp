@@ -84,7 +84,7 @@
             if($limit==""){
                 $limit=10;
             }
-            
+            $limit =1;
             $totalrows= mysqli_fetch_array($Customer->Query("SELECT count(customerid) from CRM_customers c ".$query));
             $min = 0;
             $min=($page-1) * $limit;
