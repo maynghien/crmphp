@@ -1,0 +1,26 @@
+
+
+Lỗi -------------------------------------------------------------------------
+số tiền lỗi (import nhập số vào lỗi)		Bình 			xong
+coi lại họ tên (mất ký tự)                  Bình 			xong
+admin nhập dữ liệu không lưu				Lộc				xong
+lỗi nút trang cuối							Bình
+lỗi import									Bình			xong
+chọn limit lỗi (đem lại lên phía trên)
+nút phân trang last page lỗi
+Cập nhật bắt buộc -------------------------------------------------------------------------
+hẹn gọi lại: theo giờ và ngày				Lộc      		xong 
+admin reset mật khẩu cho nhân viên			Lộc      		xong
+thêm người dùng								Lộc      		xong 			
+xóa khách hàng theo lựa chọn				Bình			xong 			
+nút zalo cho qua tab khách 					Bình			xong
+số tài khoản, địa chỉ						Bình 			chưa hiển thị ra list
+chỉ có số điện thoại là bắt buộc			Bình			Xong
+cho chọn số dòng/trang                      Bình 			xong
+hiển thị lại grid cho hợp lý                Bình 			xong
+Chức năng mới ->>>>>>>>>> để Bình làm-----------------------------------------------------
+gọi theo nhà mạng							Bình			đang làm
+chia đều dữ liệu cho nhân viên				Bình 			xong
+
+tổng kết quả tìm kiếm						Bình			xong
+tìm kiếm Lỗi 								Bình			xong
