@@ -82,7 +82,11 @@
             }
             $limit=$this->getQueryParam("limit");
             if($limit==""){
-                $limit=10;
+               if($role=="nhanvien")
+                $limit =1;
+            else{
+               $limit =10;
+            }
             }
             //$limit =1;
             $totalrows= mysqli_fetch_array($Customer->Query("SELECT count(customerid) from CRM_customers c ".$query));
