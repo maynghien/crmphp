@@ -137,14 +137,18 @@
                              ";
                              echo "<a href='javascript:;' id='btn-delete' class='btn btn-danger mt-1 disabled'>Xóa</a>";  
                              ?>
-                             <select  id='limit' name="limit">
-            <option value="10" <?php echo ($data["limit"]==1?"selected":"")?> >1</option>
-          <!--   <option value="20" <?php echo ($data["limit"]==20?"selected":"")?> >20</option>
-            <option value="30" <?php echo ($data["limit"]==30?"selected":"")?> >30</option>
-            <option value="40" <?php echo ($data["limit"]==40?"selected":"")?> >40</option>
-            <option value="50" <?php echo ($data["limit"]==50?"selected":"")?> >50</option>
-            <option value="100" <?php echo ($data["limit"]==100?"selected":"")?> >100</option>
-            <option value="200" <?php echo ($data["limit"]==200?"selected":"")?> >200</option> -->
+             <select  id='limit' name="limit">
+            <<?php if($data["Role"]!="admin"){ ?>
+                <option value="10" <?php echo ($data["limit"]==1?"selected":"")?> >1</option>
+            <<?php }
+            else{ ?>
+                <option value="20" <?php echo ($data["limit"]==20?"selected":"")?> >20</option>
+                <option value="30" <?php echo ($data["limit"]==30?"selected":"")?> >30</option>
+                <option value="40" <?php echo ($data["limit"]==40?"selected":"")?> >40</option>
+                <option value="50" <?php echo ($data["limit"]==50?"selected":"")?> >50</option>
+                <option value="100" <?php echo ($data["limit"]==100?"selected":"")?> >100</option>
+                <option value="200" <?php echo ($data["limit"]==200?"selected":"")?> >200</option>
+            <<?php } ?>
             
         </select>
         <label for="limit">Số dòng/Trang</label> 
